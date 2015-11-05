@@ -1,0 +1,234 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/AD/simon.wollwage/org/work.org.gpg
+
+
+* DONE [#B] Implement resend abort to react to new
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "NEXT"       [2015-10-28 Wed 12:53]
+CLOCK: [2015-10-28 Wed 12:40]--[2015-10-28 Wed 12:53] =>  0:13
+- State "NEXT"       from "HOLD"       [2015-10-28 Wed 12:38]
+- State "HOLD"       from "NEXT"    [2015-10-28 Wed 10:30] \\
+  Interrupted by meeting
+CLOCK: [2015-10-28 Wed 08:50]--[2015-10-28 Wed 10:30] =>  2:41
+- State "NEXT"       from "PAUSED"     [2015-10-28 Wed 08:50]
+- Note taken on [2015-10-28 Wed 08:11] \\
+  * uses two atomic flags to control abortion of operation
+  * one flag to notify that a resend operation is in progress
+  * one flag to notify that the operation needs to be aborted
+- State "NEXT"       from "TODO"       [2015-10-28 Wed 07:34]
+
+* DONE [#A] Change sequence number system to be separate
+DEADLINE: <2015-10-27 Tue 13:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+CLOCK: [2015-10-27 Tue 12:52]--[2015-10-27 Tue 13:02] =>  0:10
+CLOCK: [2015-10-27 Tue 11:15]--[2015-10-27 Tue 11:58] =>  0:43
+CLOCK: [2015-10-27 Tue 07:49]--[2015-10-27 Tue 10:53] =>  3:04
+- State "DONE"       from "NEXT"       [2015-10-27 Tue 13:02]
+- State "NEXT"       from "HOLD"       [2015-10-27 Tue 12:52]
+- State "HOLD"       from "PAUSED"     [2015-10-27 Tue 12:10] \\
+  lunch
+- State "PAUSED"     from "NEXT"       [2015-10-27 Tue 11:58]
+- State "NEXT"       from "PAUSED"     [2015-10-27 Tue 11:15]
+- State "PAUSED"     from "NEXT"       [2015-10-27 Tue 10:53]
+- Note taken on [2015-10-27 Tue 10:00] \\
+  See [[n-1][note]]
+- State "NEXT"       from "TODO"       [2015-10-27 Tue 07:49]
+
+* DONE [#B] Implement detection of repeated messages
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "NEXT"       [2015-10-26 Mon 16:46]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 16:27]
+- Note taken on [2015-10-26 Mon 16:26] \\
+  Hash message and keep the last hash in the current context
+
+* DONE [#A] Finish state 4
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "NEXT"       [2015-11-04 Wed 13:27]
+- State "NEXT"       from "PAUSED"     [2015-11-04 Wed 07:33]
+- State "NEXT"       from "PAUSED"     [2015-11-02 Mon 11:29]
+- State "PAUSED"     from "NEXT"       [2015-10-29 Thu 11:19]
+- State "NEXT"       from "PAUSED"     [2015-11-02 Mon 10:18]
+  CLOCK: [2015-11-04 Wed 07:33]--[2015-11-04 Wed 13:27] =>  5:54
+  CLOCK: [2015-11-02 Mon 11:29]--[2015-11-02 Mon 17:32] =>  6:03
+  CLOCK: [2015-11-02 Mon 10:18]--[2015-11-02 Mon 11:19] =>  1:01
+  CLOCK: [2015-10-30 Fri 08:44]--[2015-10-30 Fri 17:45] =>  9:01
+- State "NEXT"       from "PAUSED"     [2015-10-30 Fri 08:41]
+- State "PAUSED"     from "NEXT"       [2015-10-29 Thu 11:30]
+  CLOCK: [2015-10-29 Thu 08:58]--[2015-10-29 Thu 11:30] =>  2:32
+- State "NEXT"       from "PAUSED"     [2015-10-29 Thu 08:58]
+- State "PAUSED"     from "NEXT"       [2015-10-27 Tue 17:53]
+CLOCK: [2015-10-27 Tue 16:11]--[2015-10-27 Tue 17:53] =>  1:42
+- State "NEXT"       from "PAUSED"     [2015-10-27 Tue 16:11]
+- State "PAUSED"     from "NEXT"       [2015-10-27 Tue 14:32]
+CLOCK: [2015-10-27 Tue 14:18]--[2015-10-27 Tue 14:32] =>  0:14
+- State "NEXT"       from "PAUSED"     [2015-10-27 Tue 14:18]
+- State "PAUSED"     from "NEXT"       [2015-10-27 Tue 14:06]
+CLOCK: [2015-10-27 Tue 13:51]--[2015-10-27 Tue 14:06] =>  0:15
+- State "NEXT"       from "PAUSED"     [2015-10-27 Tue 13:51]
+- State "PAUSED"     from "NEXT"       [2015-10-26 Mon 18:07]
+- Note taken on [2015-10-26 Mon 17:35] \\
+  Status [5/5]
+  * [X] Resend/exp!=rec
+  * [X] Resend/exp==rec
+  * [X] Resend/rest
+  * [X] Nonresend/exp>rec
+  * [X] Nonresend/exp<=rec
+- State "NEXT"       from "PAUSED"     [2015-10-26 Mon 17:35]
+- State "PAUSED"     from "NEXT"       [2015-10-26 Mon 16:26]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 15:33]
+
+* DONE [#B] Provide callback interface for operation layer
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "NEXT"       [2015-10-28 Wed 14:30]
+  CLOCK: [2015-10-28 Wed 14:04]--[2015-10-28 Wed 14:30] =>  0:26
+  - State "NEXT"       from "TODO"       [2015-10-28 Wed 14:04]
+    :PROPERTIES:
+    :Effort:   1:00
+    :END:
+
+* DONE [#C] Stresstest
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- Note taken on [2015-10-26 Mon 14:53] \\
+  * Memory consumption around 20Mb and steady
+  * Still responsive
+  * Test conducted with 1000 simultaneous clients
+- State "DONE"       from "NEXT"       [2015-10-26 Mon 14:52]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 14:47]
+- Note taken on [2015-10-26 Mon 14:29] \\
+  Connect as many clients as possible
+
+* DONE [#C] Run through valgrind and check for leaks
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- Note taken on [2015-10-26 Mon 14:47] \\
+  #+begin_example
+  ==17258== LEAK SUMMARY:
+  ==17258==    definitely lost: 0 bytes in 0 blocks
+  ==17258==    indirectly lost: 0 bytes in 0 blocks
+  ==17258==      possibly lost: 0 bytes in 0 blocks
+  ==17258==    still reachable: 4,222 bytes in 27 blocks
+  ==17258==         suppressed: 0 bytes in 0 blocks
+  #+end_example
+- State "DONE"       from "NEXT"       [2015-10-26 Mon 14:46]
+- State "NEXT"       from "WAITING"    [2015-10-26 Mon 14:41]
+- State "WAITING"    from "NEXT"       [2015-10-26 Mon 14:38] \\
+  Waiting for valgrind to finish compiling/installing
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 14:38]
+
+* DONE [#A] <<m-1>> Market Data Meeting at <2015-10-26 13:00 Mon> :@office:meeting:
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/GTD
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi work esp
+:END:
+- State "DONE"       from "MEETING"    [2015-10-26 Mon 14:01]
+
+* DONE [#C] Segfault on tcp disconnect due to async data race
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/Bugs
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "PAUSED"     [2015-10-26 Mon 14:21]
+- State "PAUSED"     from "HOLD"       [2015-10-26 Mon 14:01]
+- State "HOLD"       from "NEXT"       [2015-10-26 Mon 12:49] \\
+  Due to meeting [[m-1]]
+- State "NEXT"       from "PAUSED"     [2015-10-26 Mon 10:18]
+- State "PAUSED"     from "NEXT"       [2015-10-26 Mon 10:08]
+- Note taken on [2015-10-26 Mon 09:32] \\
+  * Possible reasons [5/5]
+    - [X] Might be due to declaration order of members [false]
+    - [X] Pending async operations calling freed memory [true]
+    - [X] Timers continue running [true]
+    - [X] Mutex prohibited teardown [true]
+    - [X] Watchdog async operation not cancelled [error code not handled]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 09:31]
+
+* DONE [#A] <<same-sequence-1>> Resend request response sequence number is wrong :work:
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/Bugs
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office esp
+:END:
+- State "DONE"       from "NEXT"       [2015-10-26 Mon 08:14]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 08:11]
+- Note taken on [2015-10-26 Mon 08:02] \\
+  Sequence number of response is same as request
+
+  #+begin_example
+  >    8306      150pppppvvvvvv0000000000000000   16  1YYYYMMDDHHMMSSTTTTTT       13xxxxxxxx
+  <    8315      150pppppvvvvvv       0       0   16  1       0           0424238335  
+  #+end_example
+
+* DONE [#A] Sequence number not increased after receiving reject (similar to [[same-sequence-1]])
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-05 Thu 11:09
+:ARCHIVE_FILE: ~/org/work.org.gpg
+:ARCHIVE_OLPATH: Work/Esp Gateway/Bugs
+:ARCHIVE_CATEGORY: work.org
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: sbi @office work esp
+:END:
+- State "DONE"       from "NEXT"       [2015-10-26 Mon 09:28]
+- State "NEXT"       from "PAUSED"     [2015-10-26 Mon 08:39]
+- State "PAUSED"     from "NEXT"       [2015-10-26 Mon 08:23]
+- State "NEXT"       from "TODO"       [2015-10-26 Mon 08:17]
